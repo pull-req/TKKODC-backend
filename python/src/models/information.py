@@ -25,6 +25,7 @@ class Information(Base):
         self.info = info
 
     __tablename__ = 'informations'
+    
     id = Column('id', 
                 Integer, 
                 primary_key=True, 

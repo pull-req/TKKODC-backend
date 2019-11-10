@@ -1,14 +1,14 @@
-# Flask-mysql-docker-template
+# TKKODC-backend
 
-Template folder while developing with flask, mysql, and docker
+Backend for TKKODC
 
 ## How to run
 
 ### Setup
 
 ```
-$ git clone https://github.com/tenmakamatani/Flask-mysql-docker-template.git
-$ cd Flask-mysql-docker-template
+$ git clone https://github.com/pull-req/TKKODC-backend.git
+$ cd TKKODC-backend
 $ cp .env.example .env
 ```
 
