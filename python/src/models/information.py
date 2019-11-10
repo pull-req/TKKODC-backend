@@ -18,6 +18,12 @@ class Information(Base):
     Information model
     """
 
+    def __init__(self, x, y, image_url, info):
+        self.x = x
+        self.y = y
+        self.image_url = image_url,
+        self.info = info
+
     __tablename__ = 'informations'
     id = Column('id', 
                 Integer, 
